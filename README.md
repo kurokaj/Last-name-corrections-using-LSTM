@@ -12,3 +12,5 @@ The Population Information System has been extracted from the names and surnames
 The Encoder-decoder architecture uses LSTM- layers to capture the dependency of following letters in each name.  
 
 ## Results
+
+The model is able to correct most of the lastnames correctly if one or max two letters are missing or are incorrect. There is vast amount of different lastnames so even small change may end up creating another perfectly valid lastname. 
